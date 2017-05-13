@@ -1,0 +1,20 @@
+{
+  "name": "WELD-wordpress-theme",
+  "version": "3.0.0",
+  "authors": [
+    "marlontamo <marcel@customadesign.com>"
+  ],
+  "description": "WELD Wordpress Theme utilizes the use of bower and gulp. to be used for bootstrap and it's powerful LESS files",
+  "keywords": [
+    "bootstrap",
+    "less",
+    "css",
+    "gulp",
+    "bower"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  },
+  "license": "MIT",
+  "private": true
+}

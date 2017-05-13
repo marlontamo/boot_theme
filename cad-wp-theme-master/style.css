@@ -1,0 +1,226 @@
+/*
+Theme Name: TAMO WP Base Theme
+Theme URI: http://github.com/TAMO-uix/TAMO-wp-theme.git
+Author: Marlon Tamo
+Author URI: http://marlontamo.com/
+Description: TAMO sys Wordpress Theme Framework utilizes the use of bower and gulp. to be used for bootstrap and it's powerful LESS files
+Version: 3.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap, LESS, bower, gulp
+Text Domain: oracle
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*.navbar-brand{
+	font-size: 40px!important;
+}
+.navbar-header/*=navbar=*/
+
+ 
+
+    
+     .img-man{
+      position: relative;
+
+     }
+     .navbar-default{
+        background-color: transparent !important; 
+     }
+     input[type="text"] {
+  display: block!important;
+      /*width: 115%;*/
+    height: 4em;
+}   input[type="tel"]{
+     width:100%;
+     height: 4em;
+}     #courriel{
+        width:100%;
+     height: 4em;
+     margin-top: 1em;
+}    
+     
+     
+        .circle{
+                height: 13em;
+    position: relative;
+    top: 25em;
+    left: 54px;
+    width: 80%;
+    border-radius: 15px;
+    border: 13px solid red;
+    border-right: 19em solid red;
+    margin-top: -10em;
+    z-index: -1;
+       }
+
+        
+        .img-man{
+            z-index: 100;
+            position: relative;
+            top: 3em;
+          }
+          @media only screen and (max-width: 500px) {
+            .img-man{
+              top:0em;
+            }
+          }
+          .arrow{
+          position: relative;
+          top: 6em;
+          }  
+    /*gray*/
+    .section2 .bg-grey{
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.section2 .bg-grey  > div:first-child{
+    background-color: transparent;
+    border: 5px solid #EE5D3F;
+    padding: 25.2px 0px;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 14px;
+}
+.section2 .bg-grey  > div span,
+.section2 .bg-grey  > div span{
+    font-size: 19px !important;
+}
+
+.section2 .bg-grey  > div:last-child span{
+    padding-left: 30px;
+    /*line-height: 36px;*/
+    display: inline-table;
+}
+.section2 .span1{
+    /*font-family: FontOswaldBold;*/
+    color: #000000;
+}
+.section2 .span1-white{
+    /*font-family: FontOswaldBold;*/
+    color: #fff;
+}
+
+.section2 .span2{
+    font-family: FontOswaldBold;
+    color: #000000;
+}
+.section2 .sec2Logo{
+    border: 5px solid #ee5d3f;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 100%;
+     margin-left: 10em;
+    background-color: white;
+    margin-top: 14px;
+}
+.section2 .sec2Logo > img{
+    width: 120px;
+    height: 11em;
+   
+}
+.section2 .sec2Logowrap{
+    display: block;
+    position: absolute;
+    right: -91px;
+    top: -29px;
+    padding: 1em;
+}
+    /*endgray*/
+/*form*/
+input[type="text"]{
+  display: block!important;
+}
+
+.ads{
+  width: 100%;
+  height: 100px;  
+  background: red;  
+
+}
+  #body-container{
+ border-top:dashed #ccc;
+ margin-top: -1em;
+}
+
+   #head-container{
+     z-index: 100;
+    }
+    box-shadow: 
+       inset 0px 21px 8px -20px #333,
+        inset 0px -21px 8px -20px #333;
+ .affix {
+       top: 32px !important;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+/*==sticky end==*/
+{
+     height: 19.5em;
+}
+
+.active a:active{
+      background-color:green!important; 
+      color:#fff !important;
+}
+#colophon/*=footer=*/{
+background: #333;
+    color: #fff;
+    padding: 11px 20px;
+}
+.elementor{/*main page body*/
+  background: #eee;
+}
+.site-footer/*=footer widget area=*/{
+	background:red;
+	color: #fff
+	;
+}
+.form{
+	    border: 1px solid black;
+    background: #eee;
+    padding: 10px 47px;
+}*/
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+.flex-sample{
+   display: flex; 
+}
+.col1{
+	flex: 1;
+	background: #0683ef;
+	padding: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+/*==woo commerce==*/
+.woocommerce ul.products li.product{
+border: 1px solid #BBB;
+    border-radius-top: 5px;
+    margin-top:20px;
+    text-align: center;
+}
+/*==add to cart btn shop page*/
+.woocommerce ul.products li.product a{
+
+    left: 3em;
+    top: 23em;
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.woocommerce-page ul.products li.product a img{
+ min-height:300px;
+ transition: all .5s ease-in-out;
+}
+.woocommerce-page ul.products li.product a img:hover{
+/*transform: rotate(3deg);*/
+transform: scale(1.1);
+}
+
